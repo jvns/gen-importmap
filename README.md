@@ -6,7 +6,7 @@ directory.
 # Installing
 
 ```
-npm install gen-importmap
+npm install @jvns/gen-importmap
 npm exec gen-importmap script.js
 ```
 
