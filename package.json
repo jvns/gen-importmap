@@ -1,0 +1,24 @@
+{
+  "name": "@jvns/gen-importmap",
+  "version": "0.0.1",
+  "description": "Generate an importmap",
+  "type": "module",
+  "main": "gen-importmap.js",
+  "scripts": {
+    "start": "node gen-importmap.js",
+    "test": "node gen-importmap.js example/index.js"
+  },
+  "bin": {
+    "gen-importmap": "./gen-importmap.js"
+  },
+  "keywords": [
+    "esbuild",
+    "importmap",
+    "build"
+  ],
+  "author": "Julia Evans",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.19.12"
+  }
+}
