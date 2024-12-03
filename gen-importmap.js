@@ -23,7 +23,7 @@ async function generateImportMap(filename) {
         }
     }
     console.log('<script type="importmap">');
-    console.log(JSON.stringify(imports, null, 2));
+    console.log(JSON.stringify({imports: imports}, null, 2));
     console.log('</script>');
 }
 
