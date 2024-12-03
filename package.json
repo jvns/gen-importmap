@@ -1,6 +1,6 @@
 {
   "name": "@jvns/gen-importmap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate an importmap",
   "type": "module",
   "main": "gen-importmap.js",

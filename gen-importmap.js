@@ -22,8 +22,11 @@ async function generateImportMap(filename) {
             imports[imp.original] = "./" + imp.path;
         }
     }
+    const sortedImports = Object.fromEntries(
+        Object.entries(imports).sort(([keyA], [keyB]) => keyA.localeCompare(keyB))
+    );
     console.log('<script type="importmap">');
-    console.log(JSON.stringify({imports: imports}, null, 2));
+    console.log(JSON.stringify({imports: sortedImports}, null, 2));
     console.log('</script>');
 }
 
