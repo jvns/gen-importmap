@@ -43,3 +43,5 @@ It'll print out something like this for you to manually copy into your `index.ht
 }
 </script>
 ```
+
+The idea here is that you include your `node_modules` directory in your build artifact which is a little weird but it does make the build tooling extremely simple.
