@@ -3,7 +3,7 @@
 Automatically generates an import map for a script, from your `node_modules`
 directory.
 
-# Installing
+# How to use it
 
 ```
 npm install @jvns/gen-importmap
